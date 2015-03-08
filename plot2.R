@@ -1,5 +1,5 @@
 # File: plot2.R
-# Plots Day of the Week vs. Global Active Power (kilowatts)
+# Plots Time vs. Global Active Power (kilowatts)
 # This script assumes the "household_power_consumption.txt" file resides in the same
 # directory.
 
