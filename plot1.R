@@ -3,6 +3,8 @@
 # This script assumes the "household_power_consumption.txt" file resides in the same
 # directory.
 
+library(dplyr)
+
 # 1. Read input
 epc <- read.table("household_power_consumption.txt", sep = ";", na.strings = c("?"), header = TRUE);
 epc$Time <- strptime(paste(epc$Date, epc$Time), format="%d/%m/%Y %H:%M:%S");
